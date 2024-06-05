@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Custom Link</title>
+</head>
+<body>
+  <div class="custom-container">
+    <a href="https://example.com" class="custom-link">This is a custom styled link</a>
+  </div>
+</body>
+</html>
+
+.custom-container {
+  background-color: #25273F; /* Set the background color */
+  padding: 20px; /* Optional: add some padding */
+  border-radius: 5px; /* Optional: round the corners */
+  color: white; /* Optional: set text color for better contrast */
+}
+
+.custom-link {
+  color: #E7D386; /* Link color */
+}
+
+.custom-link:hover,
+.custom-link:focus {
+  color: #FFE88E; /* Hover/Focus link color */
+}
